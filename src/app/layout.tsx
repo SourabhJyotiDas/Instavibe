@@ -42,7 +42,7 @@ export default function RootLayout({
         <div className="flex flex-grow h-full">
           <Sidebar />
           {/* Main content area */}
-          <main className="flex-grow overflow-auto p-6">{children}</main>
+          <main className="flex-grow overflow-auto">{children}</main>
         </div>
       </body>
     </html>
